@@ -1,15 +1,6 @@
-- 👋 Hi, I’m @Tigran7744
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 
-<!---
-Tigran7744/Tigran7744 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+
 
 
 bnb_config = BitsAndBytesConfig(load_in_8bit=True)
@@ -30,5 +21,4 @@ gen_tokens = model.generate(
     temperature=0.3,
     )
 
-gen_text = tokenizer.decode(gen_tokens[0])
-print(gen_text)
+
